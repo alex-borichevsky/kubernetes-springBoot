@@ -1,0 +1,6 @@
+applications:
+- name: employee-producer
+  instances: 1
+  memory: 1GB
+  buildpack: java_buildpack
+  path: target/employee-producer-0.0.1-SNAPSHOT.jar
